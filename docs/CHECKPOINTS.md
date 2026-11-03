@@ -21,7 +21,7 @@ Install the public audit requirements and CPU PyTorch, download the final checkp
 python -m pip install -r requirements-audit.txt
 python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu
 sha256sum -c SHA256SUMS.txt --ignore-missing
-unzip hyperkt-final-stage9e-checkpoints-v1.zip -d checkpoints/final
+python -m zipfile -e hyperkt-final-stage9e-checkpoints-v1.zip checkpoints/final
 python scripts/verify_checkpoints.py --checkpoints checkpoints/final \
   --output analysis/local-checkpoint-verification.json
 ```

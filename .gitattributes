@@ -1,0 +1,8 @@
+# Preserve inherited bytes across platforms; original hashes are contractual.
+* text=auto eol=lf
+notebooks/** -text
+results/** -text
+archive/package_notes/** -text
+archive/manuscript_drafts/** -text
+*.npz -text
+*.png -text
