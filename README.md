@@ -12,6 +12,7 @@ Objective 1 research repository for the HyperKT knowledge-tracing study. It pres
 - **[Audit and limitations](docs/AUDIT_AND_LIMITATIONS.md):** what was checked, what was not, CPU/CUDA numerical differences and conditional protocol status.
 - **[Data and privacy](docs/DATA_AND_PRIVACY.md):** provenance, cleaning/splitting, exclusions and unresolved redistribution terms.
 - **[Checkpoint guide](docs/CHECKPOINTS.md):** final versus historical weights and safe loading.
+- **[Code availability](docs/CODE_AVAILABILITY.md):** repository and versioned release links, with suggested manuscript wording.
 - **[Manuscript claim audit](docs/MANUSCRIPT_CLAIM_AUDIT.md):** warnings for all three supplied historical drafts, including the file named `CODE_ALIGNED`.
 
 ## Final held-out results
@@ -43,7 +44,7 @@ docs/            research narrative, stage pages, reproduction and limitations
 archive/         unchanged historical manuscripts and source-package notes
 ```
 
-Model binaries are distributed as curated [release assets](https://github.com/dharavathshivanayak201-debug/HyperKT-Knowledge-Tracing/releases), not normal Git objects. Learner interaction records, ID split lists, sequence arrays and learner-level predictions are deliberately excluded from both the public repository and checkpoint ZIPs.
+Model binaries are distributed as curated [release assets](https://github.com/dharavathshivanayak201-debug/HyperKT-Knowledge-Tracing/releases) and are absent from the main branch. A temporary same-repository branch used solely for release upload was deleted after publication; learner interaction records, ID split lists, sequence arrays and learner-level predictions are excluded from both the public repository and checkpoint ZIPs.
 
 ## Quick start
 

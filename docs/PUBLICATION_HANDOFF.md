@@ -6,6 +6,8 @@ This repository is the Objective 1 research release under the requested owner an
 
 The first publication attempt stopped before upload because GitHub requested owner re-verification and Comet disconnected. The owner subsequently completed GitHub's own email verification, allowing the already approved temporary repository-only uploader invitation to be accepted.
 
+Direct checkpoint uploads from the external CLI connection failed, including a 335-byte checksum file. The reviewed model-only ZIPs were therefore transported through an orphan temporary branch in the same repository, verified against the public manifest by GitHub Actions, and published using GitHub's native release API; that temporary branch was then deleted and was never merged into main.
+
 Authentication codes are entered only on GitHub, never in research files or chat. The temporary upload account is an operational collaborator, not an inferred research author.
 
 ## Upload and verification procedure
