@@ -1,0 +1,618 @@
+[
+  {
+    "archive": "stage_results/hyperkt_stage1.zip",
+    "entry": "test_interactions.parquet",
+    "bytes": 454447,
+    "sha256": "672d23f4476fdf99e0ba38d768746a5012c9be57d7e247581e417bed8ea00996",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage1.zip",
+    "entry": "val_interactions.parquet",
+    "bytes": 336013,
+    "sha256": "f8c7dd057566c75094cbb8a7812e138a59e1e40a06deaf29f61035b6962a47dd",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage1.zip",
+    "entry": "manifest.json",
+    "bytes": 63104,
+    "sha256": "83f55f9a5ef54b8bfb105410dc2aa39de47611618739e9e0d3118cb296b9b14d",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage1.zip",
+    "entry": "train_interactions.parquet",
+    "bytes": 2727852,
+    "sha256": "fded5a736cd026d0b8dad7bcdb9320dc706a84c8a04347cc166d97dac65cd7cd",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_DKT_matched_seed123.npz",
+    "bytes": 120049,
+    "sha256": "75f854fc78f01971317207ee829963ad0c6483afcc47b5e26e3a0f4330215e64",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_DKT_matched_seed2024.npz",
+    "bytes": 119855,
+    "sha256": "05030bb781d81e611dc2a24667ef47b556ca59316d53dc8c71b2a8495be42353",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_DKT_matched_seed3407.npz",
+    "bytes": 120118,
+    "sha256": "d431f0e594baab5c51aa1d63d251d4d06535826ee480e092ae6c2cfbd35ad46b",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_DKT_matched_seed42.npz",
+    "bytes": 119979,
+    "sha256": "db25f32681a814de429ba02f590ff9363a83d105971bc6cc53765dbd8015d08a",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_DKT_matched_seed7777.npz",
+    "bytes": 120178,
+    "sha256": "d9f24abba4906e5586febf8f2b2f68b5b8e7f672a4684bb1513d66024f6fc649",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_gated_seed123.npz",
+    "bytes": 119778,
+    "sha256": "e05f090e6ca6e2089f90423b93d34ec6098b1c9a2d403df9ca81297f64c349eb",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_gated_seed2024.npz",
+    "bytes": 119897,
+    "sha256": "8fdcd8aa8cb040da9fd30f00a79f485fb8ae481c7e007bfeb62a0d7bb2b4ce23",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_gated_seed3407.npz",
+    "bytes": 120130,
+    "sha256": "abb3823f297e09d805d9544b7a9c7031b2d53b04d76ab89388c205c93f51b994",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_gated_seed42.npz",
+    "bytes": 119897,
+    "sha256": "180f99809effa5efc5ea0e4ef1b700414c6180537fd524b5c2d0b6c092212048",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_gated_seed7777.npz",
+    "bytes": 120050,
+    "sha256": "306763c41447f5415f0b8f0e3b28e4bda61d8609e9cc1d8a99217741e7c60008",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_matched_seed123.npz",
+    "bytes": 119791,
+    "sha256": "93e32536f4fb8e330197c1f14327f913eb49c35826d2e530ebb3499953ae7ee8",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_matched_seed2024.npz",
+    "bytes": 119852,
+    "sha256": "3a0287528465a41774c2f34293ed8c9d94492aca2d7adf464ab9c9b6982528ef",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_matched_seed3407.npz",
+    "bytes": 120094,
+    "sha256": "4b153bdc824f0194f44f7e4d9b085c44ade25f0dcb3868adef5cc7a76a912aca",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_matched_seed42.npz",
+    "bytes": 119962,
+    "sha256": "518f237b373dfbb2b2e95a6a666f0ffca0bbc9258dbe166d51411b4d532d3573",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage10.zip",
+    "entry": "predictions_HyperKT_matched_seed7777.npz",
+    "bytes": 119809,
+    "sha256": "3d2496b671def2afdd1712b18eca3a2404c564f889439757d797d7ec31d29b0d",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage2(2).zip",
+    "entry": "manifest.json",
+    "bytes": 63104,
+    "sha256": "83f55f9a5ef54b8bfb105410dc2aa39de47611618739e9e0d3118cb296b9b14d",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage2(2).zip",
+    "entry": "train_sequences.npz",
+    "bytes": 309145,
+    "sha256": "046cf525ad5cc4ab50f8de50ef832febc4c6be3f269c8efb5ababcec54cd2987",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage2(2).zip",
+    "entry": "val_sequences.npz",
+    "bytes": 39787,
+    "sha256": "95f0188a0be67c07a4a8614c9a4d75b1108db0eb7c3bdd4fad98933449294bfe",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage2(2).zip",
+    "entry": "test_sequences.npz",
+    "bytes": 50316,
+    "sha256": "1d3db9187a322b8405933819b46ac7f0146c3f1ef422fa6598c3f6fe6484813e",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage3.zip",
+    "entry": "stage3_hypergraph.pt",
+    "bytes": 22017,
+    "sha256": "8ee6a84ae54af777f49a1b0f33e8b6e0e3bb54b97c6bec68b9a49bfa1eba85a5",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage3b(1).zip",
+    "entry": "hypergraph_repaired.pt",
+    "bytes": 21389,
+    "sha256": "0acf49ae78099733764783be05cc93167152f663885242fc821acb57002b764a",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "stage_results/hyperkt_stage9f.zip",
+    "entry": "hyperkt_stage9f/student_coverage.csv",
+    "bytes": 83814,
+    "sha256": "1fef2919099183ea468f85739955939256c8eccf451389c5f66994edd0d0cdf9",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/input_hyperkt_stage3b.zip",
+    "bytes": 79944,
+    "sha256": "6df9833e37019ea54969a3059e956c05a54b20b95224f335be68c873379db1a8",
+    "reason": "Embedded input archive may include learner-level arrays; do not republish wholesale."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_seed7777/best.pt",
+    "bytes": 1910783,
+    "sha256": "4b42c5ff3fe07a9a1dd8a93457502c24bef609e6dcf25ecaffce0905676ddd96",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_decay_seed123/best.pt",
+    "bytes": 1911347,
+    "sha256": "42483a8e6ec8fd52165eedbe739ec0f24c96890ec21c038322475047b50fb5b2",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_decay_seed2024/best.pt",
+    "bytes": 1911347,
+    "sha256": "c3aa7865e13ef54522e14fc27e654e074a1a4e688580a60770197ebad41733e3",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_seed3407/best.pt",
+    "bytes": 2079015,
+    "sha256": "eee278427202bcf8909adfda038fcc730072c460e7a256357328521e15c2df04",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_decay_seed42/best.pt",
+    "bytes": 2079579,
+    "sha256": "a8ec3cbcd3abfd215de03dd19ebcbedef57b50b42c3985687361fc99d59e34bb",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_seed42/best.pt",
+    "bytes": 2079015,
+    "sha256": "b2ccdabc5bece68898bb905ea9ba7923c11cc575009da41b5074f22d3264f61b",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_seed3407/best.pt",
+    "bytes": 1910783,
+    "sha256": "96efbf514e9aa51468646a4af125f7d2d194a8750236721d6c1c02429336700e",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_seed123/best.pt",
+    "bytes": 1910783,
+    "sha256": "c67688fa40b13d5d9710f62dd70f299fd0ecd0062d512ab546187909a97e8adb",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_seed2024/best.pt",
+    "bytes": 1910783,
+    "sha256": "ed603776adab352d649d9105cda69d636c4d345c20d5960b13ff774b9aa5b23c",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_decay_seed123/best.pt",
+    "bytes": 2079579,
+    "sha256": "ddf66953261b566ef33ddc50b5ea4340d63c61943be980cc899e976cd85f47fe",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_decay_seed7777/best.pt",
+    "bytes": 1911347,
+    "sha256": "a5b382f907fe7740e4d2ce6e50512259faec967fc59a3329ebe62781a3662aca",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_seed7777/best.pt",
+    "bytes": 2079015,
+    "sha256": "c13cdbd819ecd71c0eb220eb1771e7b5aa3dc2dd7141cb223d835dc09b99866b",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_seed2024/best.pt",
+    "bytes": 2079015,
+    "sha256": "bb070868cf88d5c5710d2c25b20a0c727c5368ca0f25a219114e519dc62d0fa8",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_decay_seed7777/best.pt",
+    "bytes": 2079579,
+    "sha256": "c947ec411c8fc31d7ab1c54f2e29b9759391ed38dc34120f0fda2b6efd20ed23",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/input_hyperkt_stage2.zip",
+    "bytes": 429070,
+    "sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+    "reason": "Embedded input archive may include learner-level arrays; do not republish wholesale."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_decay_seed2024/best.pt",
+    "bytes": 2079579,
+    "sha256": "84c0252377d5a08f9b3f1eafe1c6c6b442e27ad468b5b954e980115fb10cb587",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_decay_seed3407/best.pt",
+    "bytes": 1911347,
+    "sha256": "5a6357fdd43bdba325405e81833c722bc57715c65d888d49edbce2e0a7b57f05",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_seed123/best.pt",
+    "bytes": 2079015,
+    "sha256": "2ae7e6605202c16ef94e2d709f38a139ea6a17d99e3d6cecca190ef8ce8fe9e7",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_seed42/best.pt",
+    "bytes": 1910783,
+    "sha256": "4e596cd7227d0d797e73217a659b6176aaef1722dc5370344d383190214e7a29",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_decay_seed42/best.pt",
+    "bytes": 1911347,
+    "sha256": "1a2a2ede0f163e0a160f555e902ecd5522d55173cef320ce737909314ded4051",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+    "entry": "HyperKT_Stage8B/transformer_hypergraph_decay_seed3407/best.pt",
+    "bytes": 2079579,
+    "sha256": "37055d9c0cb15319282dbf1774d489c96173418255e3ebd89fed5e8142fe78a4",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed123/best.pt",
+    "bytes": 764074,
+    "sha256": "e8efb05601eaddb213b9fac3b91d56507db15ca7c1eb79977773113eadd45970",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed42/best.pt",
+    "bytes": 764074,
+    "sha256": "99572c38df0b8e04fc05eb644545808ad42b050af675d7f35b86f75b21363f90",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed7777/best.pt",
+    "bytes": 764074,
+    "sha256": "f889b45c3a479569ba95ab6471d79d06d2b72e5795f4c6c5b302dc911843a6a5",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed123/last_state.pt",
+    "bytes": 2313141,
+    "sha256": "cb190632b76319c9ee5b812a9b59b1f1175b50f307963554fc97672507a0dacd",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed2024/best.pt",
+    "bytes": 764074,
+    "sha256": "13a23e66e61c09457652f9109139d8aa29fecae832208f587475d0a66f781e7e",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed3407/best.pt",
+    "bytes": 764074,
+    "sha256": "0b3fb2d1723cfcfdcf8c9c775d6835aede5ad04e3dd689ed5d45169947166fd3",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed42/last_state.pt",
+    "bytes": 2312885,
+    "sha256": "e665c5dea1da53d27a37506d86ccffb423661bbd61b68b49532ab1a4c76f428d",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed42/best.pt",
+    "bytes": 2079957,
+    "sha256": "01d376c18b546f5c861468cf33a7010adcbc322cfdc6ea24dd7ee8fb40699bc5",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed123/best.pt",
+    "bytes": 2079707,
+    "sha256": "22127f22edfc187cefd6fadcd04166d58c51062aa0bd69069f76b0bde66d4fde",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed3407/last_state.pt",
+    "bytes": 2313141,
+    "sha256": "993aac892a6ffe268e6973537cfd21356218c3a850519b58c95f422b8c0f545e",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed3407/best.pt",
+    "bytes": 2079707,
+    "sha256": "b7f8705b702c8a1e9db6d509b7ff3d963ab91cd91cd192c2385d52831c84ee53",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed123/last_state.pt",
+    "bytes": 6240377,
+    "sha256": "61fee8d9ed199304571bfa1f9dcd7aaa38600e47d2751436655a9406c6c5f852",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed3407/best.pt",
+    "bytes": 2079957,
+    "sha256": "fbadf65faf5405e853569e801c8684bfc6a8318e9819f7c5b0c937b78ddb685b",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed2024/best.pt",
+    "bytes": 2079957,
+    "sha256": "a3065489b966d7c7af2701f42fac0101140b9f1a44ca1ed94ca37de01d2c506a",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed3407/last_state.pt",
+    "bytes": 6240825,
+    "sha256": "4c58e6139ce018aa8e767055e0f92b7bf2777836435926ca95b6b58edcb9537a",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed7777/best.pt",
+    "bytes": 2079707,
+    "sha256": "f16fce56c80ceef0745ad244cb48330b94d0ab0769047bbf807c357e5adecc95",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed123/best.pt",
+    "bytes": 2079957,
+    "sha256": "cb2aefcfa932822c4d6bf28c349faada5685307be9eb15aff7315a80bb09f1af",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed123/last_state.pt",
+    "bytes": 6239285,
+    "sha256": "e48cfe7b58b10fcd208e8e134d60a91e79baf84b12ac8444792a7f6cb3490303",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed42/best.pt",
+    "bytes": 2079707,
+    "sha256": "167ad47733aa472dba089eef1e4d53a8be96630034e0ff3bc45f8964915868a2",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed3407/last_state.pt",
+    "bytes": 6239733,
+    "sha256": "75692425d155e8bc3966de3d97ceed93fdf882b12cfdfb063f267495e1125963",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed7777/last_state.pt",
+    "bytes": 6239477,
+    "sha256": "7476d5ea244966019f19a1054d3a903055a991122b55f392f03e4296cad747a2",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed42/last_state.pt",
+    "bytes": 6239669,
+    "sha256": "2e163fbe9c9db0cb8e21b4b5051778d98d750259e90c65600fed92b6fa6b5754",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed7777/best.pt",
+    "bytes": 2079957,
+    "sha256": "c04fcd1fa5ce13746db77843252753d736ee8ef02b9f44f0a7031647f3dd2f35",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed2024/last_state.pt",
+    "bytes": 6240953,
+    "sha256": "7578c4d7c450c508388b59456cba2e6f2b0ed7566f7816258320e7720cd27254",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed42/last_state.pt",
+    "bytes": 6240761,
+    "sha256": "9157efefad116e3ca54ba2147050ff28eae29279f890920633d9fd9b77f2eede",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed2024/best.pt",
+    "bytes": 2079707,
+    "sha256": "682767964abfb9020c0e094200981af95a9565d01cf543e8cc69f4eb3d53c710",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed2024/last_state.pt",
+    "bytes": 2313141,
+    "sha256": "c28290e4f4b707f478c39d4730bbff56b2f4518b1ca942a4986cb7b32fe4d1fa",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_matched_seed2024/last_state.pt",
+    "bytes": 6239669,
+    "sha256": "a84a5330209ae40d69102677d2b1824a9773acd25f2cbacf977c0782fdd0c7d3",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/DKT_matched_seed7777/last_state.pt",
+    "bytes": 2313205,
+    "sha256": "d22d2618f682bc7a37342b3cf9eb01ccb6ae6298a55331bea18fa0d888f740af",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+    "entry": "HyperKT_Stage9E/HyperKT_gated_seed7777/last_state.pt",
+    "bytes": 6240889,
+    "sha256": "59313d9c1895dbd82290ea17980cbf0248e763f6280e1a11db24a390313e8e9f",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage4.zip",
+    "entry": "hypergraph_fusion.pt",
+    "bytes": 14123665,
+    "sha256": "905935b3e3dcd22aaff1314e0d410743e7d4303808354c7f3e993bea3f806f5d",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage4.zip",
+    "entry": "temporal_only.pt",
+    "bytes": 13544757,
+    "sha256": "5de7680d2051a48d99ac26dedf55a9549538600c585a5b05268ab31d4ab3bb3f",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage5.zip",
+    "entry": "validation_predictions.npz",
+    "bytes": 258256,
+    "sha256": "34278fa672e407fec24c2b19b9474d40b8a4ccf270975bc430c8e1b89508482c",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage5.zip",
+    "entry": "stage5_head.pt",
+    "bytes": 14915713,
+    "sha256": "fc462e00da6c01f4abf81a32d7c997e5eb8f6ea4f6671e4f54c92d2f235515e2",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage6.zip",
+    "entry": "stage6_model.pt",
+    "bytes": 14915661,
+    "sha256": "a1931d5635461d8a32af47fd348a3b9636f27e803e5b8a2201a1ab6ddf4758c9",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage6.zip",
+    "entry": "validation_predictions.npz",
+    "bytes": 258265,
+    "sha256": "d6f62660394772623d4ef358b8de55b675dd6dd7ec1342f2bcd6ef1b95a95d3c",
+    "reason": "Learner-level outcomes, source learner identifiers, source row positions or exact split-ID lists; privacy/redistribution review unresolved."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage8a.zip",
+    "entry": "hypergraph_decay.pt",
+    "bytes": 14123533,
+    "sha256": "87fa6fdd32b133fce46a02c6270b3f247a14e8251435a3275d1e1601bf1836c6",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage8a.zip",
+    "entry": "transformer_decay.pt",
+    "bytes": 13545013,
+    "sha256": "150c84748758477a8d047554dc1db797dcce75cbe9a1c4a9fd31159166546090",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage8a.zip",
+    "entry": "transformer_no_decay.pt",
+    "bytes": 13545205,
+    "sha256": "7dde134df48cacbd9a999fe9eea51e27c2b0b23cff96dcc168d736dab3d3a2b4",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  },
+  {
+    "archive": "checkpoint_and_large_artifacts/hyperkt_stage8a.zip",
+    "entry": "hypergraph_no_decay.pt",
+    "bytes": 14123737,
+    "sha256": "269ef6e58b3411256a6ff4e30f48973849cb2c8e42bb05a758a451fe9828f1d7",
+    "reason": "Model/resume state kept out of normal Git; eligible reviewed best checkpoints are distributed through separate release assets."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "old_diagnostics": {
+    "old_mse": 0.00016280315655931864,
+    "constant_mse": 2.9007187838482765e-07,
+    "zero_mse": 3.0565749150217344e-07,
+    "old_prediction_std": 1.642327045112763e-08,
+    "observed_std": 0.0005385832139835288,
+    "assignment_normalized_entropy_mean": 0.9983908855576951,
+    "assignment_row_std_mean": 0.0032663737351723357,
+    "positive_pair_fraction": 0.4281697805187738
+  },
+  "new_validation": {
+    "auc": 0.8539942188937065,
+    "ap": 0.779594210838346,
+    "bce": 0.5047820415997845,
+    "pred_std": 0.2832745313644409
+  },
+  "new_test": {
+    "auc": 0.867122645453351,
+    "ap": 0.8076044740652157,
+    "bce": 0.4884228605477764,
+    "pred_std": 0.28523141145706177
+  },
+  "degree_product_test_baseline": {
+    "auc": 0.8869757886312872,
+    "ap": 0.8600216707779522
+  },
+  "best_epoch": 170,
+  "membership_entropy_normalized": 0.7473312096813176,
+  "new_prediction_std_all_pairs": 0.2874374985694885,
+  "positive_train": 3305,
+  "positive_val": 708,
+  "positive_test": 708,
+  "negative_train": 4413,
+  "negative_val": 946,
+  "negative_test": 946
+}

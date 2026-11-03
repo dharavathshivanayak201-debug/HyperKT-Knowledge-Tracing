@@ -1,0 +1,9 @@
+{
+  "student_disjoint_train_val": true,
+  "causal_probe_max_delta": 0.0,
+  "test_evaluated": false,
+  "cross_window_uniqueness": "not proven without original event IDs",
+  "model_source": "self-contained Stage 8B implementation, not verified identical to Stage 8A",
+  "hypergraph": "frozen Stage 3B assignments",
+  "forgetting": "positional attention penalty, not elapsed-time"
+}

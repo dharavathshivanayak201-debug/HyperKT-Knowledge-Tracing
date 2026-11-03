@@ -1,0 +1,14 @@
+{
+  "stage": "9D",
+  "decision": "DIAGNOSTIC_ONLY_NOT_TEST_READY",
+  "best_observed_baseline": "DKT",
+  "candidate": "transformer_hypergraph_decay",
+  "auc_gap_DKT_minus_HyperKT": 0.006485951939782209,
+  "blockers": [
+    "unequal batch sizes and architecture capacity not fully matched",
+    "official published baseline fidelity not established",
+    "cross-window event uniqueness unresolved",
+    "any proposed improvement requires a separately labeled retraining study"
+  ],
+  "next": "Stage 9E controlled improvement and fairness experiments, then protocol freeze and held-out test"
+}

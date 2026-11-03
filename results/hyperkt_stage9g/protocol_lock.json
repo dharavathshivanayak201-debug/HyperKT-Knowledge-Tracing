@@ -1,0 +1,46 @@
+{
+  "stage": "9G",
+  "source_protocol": {
+    "stage": "9E",
+    "type": "exploratory_matched_batch_and_budget",
+    "models": [
+      "DKT_matched",
+      "HyperKT_matched",
+      "HyperKT_gated"
+    ],
+    "seeds": [
+      42,
+      123,
+      2024,
+      3407,
+      7777
+    ],
+    "config": {
+      "batch_size": 32,
+      "lr": 0.0002,
+      "weight_decay": 0.0001,
+      "max_epochs": 20,
+      "patience": 5,
+      "hidden": 128,
+      "dropout": 0.1
+    },
+    "stage2_sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+    "stage3b_sha256": "6df9833e37019ea54969a3059e956c05a54b20b95224f335be68c873379db1a8",
+    "test_evaluated": false,
+    "cross_window_event_uniqueness": "unresolved",
+    "baseline_fidelity": "independent DKT implementation",
+    "hypergraph_seeds": "fixed Stage3B hypergraph"
+  },
+  "checkpoints_verified": 15,
+  "checkpoint_failures": [],
+  "validation_tested_only": true,
+  "test_set_used": false,
+  "selected_proposed_model": "HyperKT_matched",
+  "primary_comparator": "DKT_matched",
+  "negative_ablation": "HyperKT_gated",
+  "source_hashes_verified": true,
+  "baseline_fidelity": "independent DKT implementation; not certified official reproduction",
+  "hypergraph_seeds": "fixed pretrained Stage3B hypergraph",
+  "event_uniqueness": "Stage9F previously reported pass; not independently rerun here",
+  "decision": "CONDITIONAL_LOCK_PENDING_BASELINE_FIDELITY_REVIEW"
+}

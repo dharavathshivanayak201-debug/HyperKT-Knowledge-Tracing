@@ -1,0 +1,4 @@
+-r requirements-audit.txt
+torch==2.11.0
+pyarrow>=18,<24
+scikit-learn>=1.6,<2

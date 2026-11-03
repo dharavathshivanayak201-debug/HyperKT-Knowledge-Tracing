@@ -1,0 +1,1 @@
+Stage 9B: checkpoint loading, causal noninterference and validation reproducibility. No test evaluation. Cross-window event uniqueness remains unresolved without original event IDs.

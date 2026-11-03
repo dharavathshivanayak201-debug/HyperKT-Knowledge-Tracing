@@ -1,0 +1,71 @@
+{
+  "stage": "9A",
+  "primary_selection_metric": "validation_auc",
+  "candidate_variants": [
+    "transformer",
+    "transformer_decay",
+    "transformer_hypergraph",
+    "transformer_hypergraph_decay"
+  ],
+  "candidate_seeds": [
+    42,
+    123,
+    2024,
+    3407,
+    7777
+  ],
+  "recommended_architecture": "transformer_hypergraph_decay",
+  "selection_rationale": "highest five-seed mean validation AUC among four pre-specified Stage 8B variants",
+  "config": {
+    "hidden": 128,
+    "layers": 2,
+    "heads": 8,
+    "dropout": 0.1,
+    "batch_size": 16,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "max_epochs": 20,
+    "patience": 5
+  },
+  "stage2_sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+  "stage8b_sha256": "7807a73f9801cb6dcd1e0069255ab44b427c034a93749e19e9e1818b9f4991a0",
+  "validation_only": true,
+  "test_set_evaluated": false,
+  "checkpoints_in_stage8b_zip": [],
+  "final_test_ready": false,
+  "blocking_issues": [
+    "recover or retrain saved best model checkpoints",
+    "resolve cross-window event uniqueness using original event IDs or reconstruction",
+    "inspect full causal mask and padding behavior against model source",
+    "predefine final model/seed aggregation and baseline protocol"
+  ],
+  "limitations": [
+    "five seeds on one validation cohort",
+    "positional attention penalty is not elapsed-time forgetting",
+    "Stage 8B architecture differs from Stage 4",
+    "structural graph associations are not causal prerequisites"
+  ],
+  "student_split_checks": {
+    "train": {
+      "windows": 3706,
+      "targets": 222562,
+      "students_with_windows": 3222,
+      "local_shift_pass": true
+    },
+    "val": {
+      "windows": 445,
+      "targets": 23858,
+      "students_with_windows": 403,
+      "local_shift_pass": true
+    }
+  },
+  "prior_audit": {
+    "student_disjoint_train_val": true,
+    "causal_probe_max_delta": 0.0,
+    "test_evaluated": false,
+    "cross_window_uniqueness": "not proven without original event IDs",
+    "model_source": "self-contained Stage 8B implementation, not verified identical to Stage 8A",
+    "hypergraph": "frozen Stage 3B assignments",
+    "forgetting": "positional attention penalty, not elapsed-time"
+  }
+}

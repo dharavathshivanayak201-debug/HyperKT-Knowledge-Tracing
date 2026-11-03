@@ -1,0 +1,1 @@
+Stage 6 end-to-end fine-tuning from Stage 5 checkpoint. Frozen Stage 3B hypergraph assignments, trainable temporal and fusion backbone, trainable mean head. Validation-only selection. No test set loaded. Concentration head excluded from optimization. MC30 evaluated after selection.

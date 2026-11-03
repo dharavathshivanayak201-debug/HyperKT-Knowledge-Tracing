@@ -1,0 +1,12 @@
+{
+  "stage": 3,
+  "seed": 42,
+  "device": "cuda",
+  "source_stage2_sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+  "num_skills": 149,
+  "num_hyperedges": 32,
+  "epochs_trained": 500,
+  "best_train_loss": 0.0005523720174096525,
+  "off_diagonal_reconstruction_mse": 0.00016280314594041556,
+  "caveat": "Training-only structural fit; not a knowledge-tracing test metric or causal prerequisite validation"
+}

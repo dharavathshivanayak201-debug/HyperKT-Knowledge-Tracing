@@ -1,0 +1,1 @@
+Training-interaction-only co-occurrence; held-out pair diagnostics, not independent student generalization. Undirected associations, not causal prerequisites. Random seed 42.

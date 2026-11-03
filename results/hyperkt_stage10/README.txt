@@ -1,0 +1,1 @@
+Frozen Stage 10 test evaluation. No retraining. 15 checkpoints, 5 seeds per architecture. DKT independently implemented. Test results must not be used for further tuning. Student-cluster bootstrap is conditional on fixed checkpoints. Test event uniqueness not independently reconstructed.

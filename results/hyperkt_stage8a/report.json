@@ -1,0 +1,54 @@
+{
+  "transformer_no_decay": {
+    "best_epoch": 6,
+    "validation": {
+      "nll": 0.5399285764918662,
+      "n_targets": 23858,
+      "auc": 0.7566253476905229,
+      "brier": 0.18074265432747427
+    },
+    "configuration": {
+      "use_hypergraph": false,
+      "use_decay": false
+    }
+  },
+  "transformer_decay": {
+    "best_epoch": 6,
+    "validation": {
+      "nll": 0.5397692355109096,
+      "n_targets": 23858,
+      "auc": 0.7568257553309639,
+      "brier": 0.18067697753919995
+    },
+    "configuration": {
+      "use_hypergraph": false,
+      "use_decay": true
+    }
+  },
+  "hypergraph_no_decay": {
+    "best_epoch": 6,
+    "validation": {
+      "nll": 0.5397152717082616,
+      "n_targets": 23858,
+      "auc": 0.7576752977408217,
+      "brier": 0.1806206354913566
+    },
+    "configuration": {
+      "use_hypergraph": true,
+      "use_decay": false
+    }
+  },
+  "hypergraph_decay": {
+    "best_epoch": 6,
+    "validation": {
+      "nll": 0.5395743154199798,
+      "n_targets": 23858,
+      "auc": 0.7577769460906588,
+      "brier": 0.18058195362247226
+    },
+    "configuration": {
+      "use_hypergraph": true,
+      "use_decay": true
+    }
+  }
+}

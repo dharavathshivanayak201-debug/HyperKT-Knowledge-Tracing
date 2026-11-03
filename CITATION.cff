@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite this research software repository; supplied author metadata is not independently verified. No journal publication or DOI is asserted."
+title: "HyperKT Knowledge Tracing: Objective 1 Research Artifacts"
+type: software
+authors:
+  - family-names: "Dhumpati"
+    given-names: "Raghu"
+  - family-names: "Veeramsetty"
+    given-names: "Venkata Ramana"
+url: "https://github.com/dharavathshivanayak201-debug/HyperKT-Knowledge-Tracing"
+repository-code: "https://github.com/dharavathshivanayak201-debug/HyperKT-Knowledge-Tracing"
+version: "v1.0.0"

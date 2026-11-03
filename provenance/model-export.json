@@ -1,0 +1,17 @@
+{
+  "source_notebook": "notebooks/HyperKT_Stage10_Frozen_Heldout_Test_Evaluation_Colab.ipynb",
+  "source_notebook_sha256": "cf0250148693b78121422e11aca5b9f4f04f4c5c5efa064805c5e1a2cece4d91",
+  "exported_classes": [
+    "CausalBlock",
+    "HyperKT",
+    "DKT",
+    "HyperKTGated"
+  ],
+  "method": "Python AST selection and unparse; exported class ASTs asserted identical.",
+  "added_module_globals": [
+    "import torch",
+    "from torch import nn",
+    "MAX_LEN = 200"
+  ],
+  "scope": "No model redesign or retraining. Historical training notebook implementations remain in their original files."
+}

@@ -1,0 +1,1 @@
+Stage 4: student-disjoint train/validation; causal attention; validation-only model selection; test unopened. Hypergraph assignments frozen from Stage 3B. Position-based decay, NOT timestamp-based forgetting.

@@ -1,0 +1,3 @@
+split,windows,students,valid_targets,duplicate_identical_windows,mask_shift_checks
+train,3706,3222,222562,0,pass
+validation,445,403,23858,0,pass

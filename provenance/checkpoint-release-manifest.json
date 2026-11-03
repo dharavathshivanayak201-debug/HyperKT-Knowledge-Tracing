@@ -1,0 +1,859 @@
+{
+  "method": "torch.load(weights_only=True, map_location='cpu'); recursively checked finite tensor values and primitive-only metadata; no unrestricted pickle. Model-only ZIPs preserve original checkpoint bytes. This is not differential-privacy certification or an architecture-equivalence test for historical models.",
+  "checkpoints": [
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_decay_seed123/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_decay_seed123/best.pt",
+      "bytes": 1911347,
+      "sha256": "42483a8e6ec8fd52165eedbe739ec0f24c96890ec21c038322475047b50fb5b2",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 37
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_decay_seed2024/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_decay_seed2024/best.pt",
+      "bytes": 1911347,
+      "sha256": "c3aa7865e13ef54522e14fc27e654e074a1a4e688580a60770197ebad41733e3",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 37
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_decay_seed3407/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_decay_seed3407/best.pt",
+      "bytes": 1911347,
+      "sha256": "5a6357fdd43bdba325405e81833c722bc57715c65d888d49edbce2e0a7b57f05",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 37
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_decay_seed42/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_decay_seed42/best.pt",
+      "bytes": 1911347,
+      "sha256": "1a2a2ede0f163e0a160f555e902ecd5522d55173cef320ce737909314ded4051",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 37
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_decay_seed7777/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_decay_seed7777/best.pt",
+      "bytes": 1911347,
+      "sha256": "a5b382f907fe7740e4d2ce6e50512259faec967fc59a3329ebe62781a3662aca",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 37
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_decay_seed123/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_decay_seed123/best.pt",
+      "bytes": 2079579,
+      "sha256": "ddf66953261b566ef33ddc50b5ea4340d63c61943be980cc899e976cd85f47fe",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_decay_seed2024/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_decay_seed2024/best.pt",
+      "bytes": 2079579,
+      "sha256": "84c0252377d5a08f9b3f1eafe1c6c6b442e27ad468b5b954e980115fb10cb587",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_decay_seed3407/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_decay_seed3407/best.pt",
+      "bytes": 2079579,
+      "sha256": "37055d9c0cb15319282dbf1774d489c96173418255e3ebd89fed5e8142fe78a4",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_decay_seed42/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_decay_seed42/best.pt",
+      "bytes": 2079579,
+      "sha256": "a8ec3cbcd3abfd215de03dd19ebcbedef57b50b42c3985687361fc99d59e34bb",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_decay_seed7777/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_decay_seed7777/best.pt",
+      "bytes": 2079579,
+      "sha256": "c947ec411c8fc31d7ab1c54f2e29b9759391ed38dc34120f0fda2b6efd20ed23",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_seed123/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_seed123/best.pt",
+      "bytes": 2079015,
+      "sha256": "2ae7e6605202c16ef94e2d709f38a139ea6a17d99e3d6cecca190ef8ce8fe9e7",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 39
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_seed2024/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_seed2024/best.pt",
+      "bytes": 2079015,
+      "sha256": "bb070868cf88d5c5710d2c25b20a0c727c5368ca0f25a219114e519dc62d0fa8",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 39
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_seed3407/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_seed3407/best.pt",
+      "bytes": 2079015,
+      "sha256": "eee278427202bcf8909adfda038fcc730072c460e7a256357328521e15c2df04",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 39
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_seed42/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_seed42/best.pt",
+      "bytes": 2079015,
+      "sha256": "b2ccdabc5bece68898bb905ea9ba7923c11cc575009da41b5074f22d3264f61b",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 39
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_hypergraph_seed7777/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_hypergraph_seed7777/best.pt",
+      "bytes": 2079015,
+      "sha256": "c13cdbd819ecd71c0eb220eb1771e7b5aa3dc2dd7141cb223d835dc09b99866b",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 39
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_seed123/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_seed123/best.pt",
+      "bytes": 1910783,
+      "sha256": "c67688fa40b13d5d9710f62dd70f299fd0ecd0062d512ab546187909a97e8adb",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 35
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_seed2024/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_seed2024/best.pt",
+      "bytes": 1910783,
+      "sha256": "ed603776adab352d649d9105cda69d636c4d345c20d5960b13ff774b9aa5b23c",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 35
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_seed3407/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_seed3407/best.pt",
+      "bytes": 1910783,
+      "sha256": "96efbf514e9aa51468646a4af125f7d2d194a8750236721d6c1c02429336700e",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 35
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_seed42/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_seed42/best.pt",
+      "bytes": 1910783,
+      "sha256": "4e596cd7227d0d797e73217a659b6176aaef1722dc5370344d383190214e7a29",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 35
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "entry": "transformer_seed7777/best.pt",
+      "source_entry": "HyperKT_Stage8B-20261102T200833Z-1-001/HyperKT_Stage8B/transformer_seed7777/best.pt",
+      "bytes": 1910783,
+      "sha256": "4b42c5ff3fe07a9a1dd8a93457502c24bef609e6dcf25ecaffce0905676ddd96",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch"
+      ],
+      "state_tensor_count": 35
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "DKT_matched_seed123/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed123/best.pt",
+      "bytes": 764074,
+      "sha256": "e8efb05601eaddb213b9fac3b91d56507db15ca7c1eb79977773113eadd45970",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 7
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "DKT_matched_seed2024/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed2024/best.pt",
+      "bytes": 764074,
+      "sha256": "13a23e66e61c09457652f9109139d8aa29fecae832208f587475d0a66f781e7e",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 7
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "DKT_matched_seed3407/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed3407/best.pt",
+      "bytes": 764074,
+      "sha256": "0b3fb2d1723cfcfdcf8c9c775d6835aede5ad04e3dd689ed5d45169947166fd3",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 7
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "DKT_matched_seed42/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed42/best.pt",
+      "bytes": 764074,
+      "sha256": "99572c38df0b8e04fc05eb644545808ad42b050af675d7f35b86f75b21363f90",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 7
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "DKT_matched_seed7777/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed7777/best.pt",
+      "bytes": 764074,
+      "sha256": "f889b45c3a479569ba95ab6471d79d06d2b72e5795f4c6c5b302dc911843a6a5",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 7
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_gated_seed123/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed123/best.pt",
+      "bytes": 2079957,
+      "sha256": "cb2aefcfa932822c4d6bf28c349faada5685307be9eb15aff7315a80bb09f1af",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 42
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_gated_seed2024/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed2024/best.pt",
+      "bytes": 2079957,
+      "sha256": "a3065489b966d7c7af2701f42fac0101140b9f1a44ca1ed94ca37de01d2c506a",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 42
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_gated_seed3407/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed3407/best.pt",
+      "bytes": 2079957,
+      "sha256": "fbadf65faf5405e853569e801c8684bfc6a8318e9819f7c5b0c937b78ddb685b",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 42
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_gated_seed42/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed42/best.pt",
+      "bytes": 2079957,
+      "sha256": "01d376c18b546f5c861468cf33a7010adcbc322cfdc6ea24dd7ee8fb40699bc5",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 42
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_gated_seed7777/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed7777/best.pt",
+      "bytes": 2079957,
+      "sha256": "c04fcd1fa5ce13746db77843252753d736ee8ef02b9f44f0a7031647f3dd2f35",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 42
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_matched_seed123/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed123/best.pt",
+      "bytes": 2079707,
+      "sha256": "22127f22edfc187cefd6fadcd04166d58c51062aa0bd69069f76b0bde66d4fde",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_matched_seed2024/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed2024/best.pt",
+      "bytes": 2079707,
+      "sha256": "682767964abfb9020c0e094200981af95a9565d01cf543e8cc69f4eb3d53c710",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_matched_seed3407/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed3407/best.pt",
+      "bytes": 2079707,
+      "sha256": "b7f8705b702c8a1e9db6d509b7ff3d963ab91cd91cd192c2385d52831c84ee53",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_matched_seed42/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed42/best.pt",
+      "bytes": 2079707,
+      "sha256": "167ad47733aa472dba089eef1e4d53a8be96630034e0ff3bc45f8964915868a2",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "entry": "HyperKT_matched_seed7777/best.pt",
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed7777/best.pt",
+      "bytes": 2079707,
+      "sha256": "f16fce56c80ceef0745ad244cb48330b94d0ab0769047bbf807c357e5adecc95",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "variant",
+        "config",
+        "best_epoch",
+        "stage2_sha256",
+        "stage3b_sha256"
+      ],
+      "state_tensor_count": 41
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage4/hypergraph_fusion.pt",
+      "source_entry": "hyperkt_stage4/hypergraph_fusion.pt",
+      "bytes": 14123665,
+      "sha256": "905935b3e3dcd22aaff1314e0d410743e7d4303808354c7f3e993bea3f806f5d",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "model",
+        "seed",
+        "best_epoch",
+        "config"
+      ],
+      "state_tensor_count": 62
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage4/temporal_only.pt",
+      "source_entry": "hyperkt_stage4/temporal_only.pt",
+      "bytes": 13544757,
+      "sha256": "5de7680d2051a48d99ac26dedf55a9549538600c585a5b05268ab31d4ab3bb3f",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "model",
+        "seed",
+        "best_epoch",
+        "config"
+      ],
+      "state_tensor_count": 58
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage5/stage5_head.pt",
+      "source_entry": "hyperkt_stage5/stage5_head.pt",
+      "bytes": 14915713,
+      "sha256": "fc462e00da6c01f4abf81a32d7c997e5eb8f6ea4f6671e4f54c92d2f235515e2",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "seed",
+        "best_epoch",
+        "backbone",
+        "training",
+        "beta_concentration_identifiable"
+      ],
+      "state_tensor_count": 70
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage6/stage6_model.pt",
+      "source_entry": "hyperkt_stage6/stage6_model.pt",
+      "bytes": 14915661,
+      "sha256": "a1931d5635461d8a32af47fd348a3b9636f27e803e5b8a2201a1ab6ddf4758c9",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "selected_epoch",
+        "seed",
+        "model"
+      ],
+      "state_tensor_count": 70
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage8a/hypergraph_decay.pt",
+      "source_entry": "hyperkt_stage8a/hypergraph_decay.pt",
+      "bytes": 14123533,
+      "sha256": "87fa6fdd32b133fce46a02c6270b3f247a14e8251435a3275d1e1601bf1836c6",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "config",
+        "seed",
+        "selected_epoch"
+      ],
+      "state_tensor_count": 62
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage8a/hypergraph_no_decay.pt",
+      "source_entry": "hyperkt_stage8a/hypergraph_no_decay.pt",
+      "bytes": 14123737,
+      "sha256": "269ef6e58b3411256a6ff4e30f48973849cb2c8e42bb05a758a451fe9828f1d7",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "config",
+        "seed",
+        "selected_epoch"
+      ],
+      "state_tensor_count": 62
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage8a/transformer_decay.pt",
+      "source_entry": "hyperkt_stage8a/transformer_decay.pt",
+      "bytes": 13545013,
+      "sha256": "150c84748758477a8d047554dc1db797dcce75cbe9a1c4a9fd31159166546090",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "config",
+        "seed",
+        "selected_epoch"
+      ],
+      "state_tensor_count": 58
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "entry": "hyperkt_stage8a/transformer_no_decay.pt",
+      "source_entry": "hyperkt_stage8a/transformer_no_decay.pt",
+      "bytes": 13545205,
+      "sha256": "7dde134df48cacbd9a999fe9eea51e27c2b0b23cff96dcc168d736dab3d3a2b4",
+      "weights_only_load": true,
+      "finite_tensor_tree": true,
+      "top_level_keys": [
+        "state_dict",
+        "config",
+        "seed",
+        "selected_epoch"
+      ],
+      "state_tensor_count": 58
+    }
+  ],
+  "assets": [
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "checkpoints": 15,
+      "bytes": 22656109,
+      "sha256": "404f0eb3e68bac570da057b6f7945cf53d0bf1158bbd41bec85ba15e9e3ce06d"
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "checkpoints": 8,
+      "bytes": 104114826,
+      "sha256": "6c5aa2aa4b30cd46f91f558cd42269cffd872d3a57d4c2233c42beceb79fd0a2"
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "checkpoints": 20,
+      "bytes": 36719471,
+      "sha256": "fce453f25fa83f9fde54f6965f020d11b217676c2f9cc8f9d5cfab47f6c3f38c"
+    }
+  ],
+  "excluded_resume_states": [
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed123/last_state.pt",
+      "sha256": "cb190632b76319c9ee5b812a9b59b1f1175b50f307963554fc97672507a0dacd",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed2024/last_state.pt",
+      "sha256": "c28290e4f4b707f478c39d4730bbff56b2f4518b1ca942a4986cb7b32fe4d1fa",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed3407/last_state.pt",
+      "sha256": "993aac892a6ffe268e6973537cfd21356218c3a850519b58c95f422b8c0f545e",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed42/last_state.pt",
+      "sha256": "e665c5dea1da53d27a37506d86ccffb423661bbd61b68b49532ab1a4c76f428d",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/DKT_matched_seed7777/last_state.pt",
+      "sha256": "d22d2618f682bc7a37342b3cf9eb01ccb6ae6298a55331bea18fa0d888f740af",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed123/last_state.pt",
+      "sha256": "61fee8d9ed199304571bfa1f9dcd7aaa38600e47d2751436655a9406c6c5f852",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed2024/last_state.pt",
+      "sha256": "7578c4d7c450c508388b59456cba2e6f2b0ed7566f7816258320e7720cd27254",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed3407/last_state.pt",
+      "sha256": "4c58e6139ce018aa8e767055e0f92b7bf2777836435926ca95b6b58edcb9537a",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed42/last_state.pt",
+      "sha256": "9157efefad116e3ca54ba2147050ff28eae29279f890920633d9fd9b77f2eede",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_gated_seed7777/last_state.pt",
+      "sha256": "59313d9c1895dbd82290ea17980cbf0248e763f6280e1a11db24a390313e8e9f",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed123/last_state.pt",
+      "sha256": "e48cfe7b58b10fcd208e8e134d60a91e79baf84b12ac8444792a7f6cb3490303",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed2024/last_state.pt",
+      "sha256": "a84a5330209ae40d69102677d2b1824a9773acd25f2cbacf977c0782fdd0c7d3",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed3407/last_state.pt",
+      "sha256": "75692425d155e8bc3966de3d97ceed93fdf882b12cfdfb063f267495e1125963",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed42/last_state.pt",
+      "sha256": "2e163fbe9c9db0cb8e21b4b5051778d98d750259e90c65600fed92b6fa6b5754",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    },
+    {
+      "source_entry": "HyperKT_Stage9E-20261102T225711Z-1-001/HyperKT_Stage9E/HyperKT_matched_seed7777/last_state.pt",
+      "sha256": "7476d5ea244966019f19a1054d3a903055a991122b55f392f03e4296cad747a2",
+      "reason": "Optimizer/resume and RNG state excluded; not required for frozen inference."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "stage": 2,
+  "max_len": 200,
+  "protocol": "disjoint target blocks, immediate previous-response inputs",
+  "source_sha256": "f0bf893ed13ab0a64ec0175bf75b79d6d2c973bb63b70093f5811a1995ac86d8",
+  "splits": {
+    "train": {
+      "students": 3330,
+      "windows": 3706,
+      "targets": 222562,
+      "unknown_targets": 0
+    },
+    "val": {
+      "students": 416,
+      "windows": 445,
+      "targets": 23858,
+      "unknown_targets": 0
+    },
+    "test": {
+      "students": 417,
+      "windows": 484,
+      "targets": 32522,
+      "unknown_targets": 0
+    }
+  }
+}

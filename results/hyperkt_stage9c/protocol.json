@@ -1,0 +1,30 @@
+{
+  "config": {
+    "batch_size": 32,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "max_epochs": 20,
+    "patience": 5,
+    "dropout": 0.1,
+    "hidden": 128
+  },
+  "seeds": [
+    42,
+    123,
+    2024,
+    3407,
+    7777
+  ],
+  "variants": [
+    "DKT",
+    "DKVMN",
+    "SAKT",
+    "AKT_inspired"
+  ],
+  "stage2_zip_sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+  "dataset_train_targets": 222562,
+  "dataset_val_targets": 23858,
+  "test_evaluated": false,
+  "baseline_status": "independent reference-inspired implementations; not verified official implementations",
+  "known_limitation": "cross-window event uniqueness unresolved"
+}

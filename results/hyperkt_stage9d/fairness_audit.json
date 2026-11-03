@@ -1,0 +1,14 @@
+{
+  "shared_dataset_zip_sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+  "same_validation_targets": true,
+  "same_seed_labels": true,
+  "stage8b_batch_size": 16,
+  "stage9c_batch_size": 32,
+  "same_batch_size": false,
+  "same_max_epochs": true,
+  "same_patience": true,
+  "baseline_implementation": "independent reference-inspired implementations; not verified official implementations",
+  "cross_window_event_uniqueness": "cross-window event uniqueness unresolved",
+  "hypergraph_fixed_across_seeds": true,
+  "test_evaluated": false
+}

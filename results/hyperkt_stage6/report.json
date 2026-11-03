@@ -1,0 +1,29 @@
+{
+  "stage": 6,
+  "seed": 42,
+  "selected_epoch": 0,
+  "initial_validation": {
+    "auc": 0.7585228585275003,
+    "nll": 0.5401935019510005,
+    "brier": 0.18058507987388264,
+    "ece_15": 0.018066379277012018,
+    "n_targets": 23858
+  },
+  "selected_deterministic_validation": {
+    "auc": 0.7585228585275003,
+    "nll": 0.5401935019510005,
+    "brier": 0.18058507987388264,
+    "ece_15": 0.018066379277012018,
+    "n_targets": 23858
+  },
+  "selected_mc30_validation": {
+    "auc": 0.7589213586830634,
+    "nll": 0.5394583295704755,
+    "brier": 0.18035890965676646,
+    "ece_15": 0.015997452110674187,
+    "n_targets": 23858
+  },
+  "mc30_variance_mean": 0.0006004868191666901,
+  "test_used": false,
+  "notes": "Student-disjoint validation; selection on deterministic validation AUC. MC dropout is approximate uncertainty, not calibrated Beta concentration. Hypergraph assignments are fixed, fusion weights fine-tuned."
+}

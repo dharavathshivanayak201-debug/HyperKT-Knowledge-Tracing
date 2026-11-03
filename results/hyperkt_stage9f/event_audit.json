@@ -1,0 +1,36 @@
+{
+  "stage": "9F",
+  "timestamp_utc": "2026-11-02T22:47:12.498275+00:00",
+  "stage1_sha256": "f0bf893ed13ab0a64ec0175bf75b79d6d2c973bb63b70093f5811a1995ac86d8",
+  "stage2_sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+  "stage9e_sha256": "500ba1b5099fa4746455085356d6799b25409b5aa81a769a9144e6c2adc0838b",
+  "train_audit": {
+    "split": "train",
+    "event_rows": 225892,
+    "students": 3330,
+    "windows": 3706,
+    "targets": 222562,
+    "expected_targets": 222562,
+    "issue_count": 0,
+    "issues_sample": []
+  },
+  "validation_audit": {
+    "split": "val",
+    "event_rows": 24274,
+    "students": 416,
+    "windows": 445,
+    "targets": 23858,
+    "expected_targets": 23858,
+    "issue_count": 0,
+    "issues_sample": []
+  },
+  "student_overlap": 0,
+  "event_uniqueness_pass": true,
+  "checkpoint_files_in_optional_archives": 0,
+  "checkpoint_inventory_preliminary_pass": false,
+  "baseline_fidelity": "Independent implementations; exact published reproduction not verified",
+  "test_predictions_evaluated": false,
+  "recommended_proposed_model": "Original ungated HyperKT (Stage9E matched)",
+  "recommended_comparator": "DKT (Stage9E matched)",
+  "decision": "CONDITIONAL_LOCK_PENDING_CHECKPOINT_AND_FIDELITY"
+}

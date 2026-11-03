@@ -1,0 +1,62 @@
+check,passed,detail
+train_required_keys,True,"dict_keys(['history_skill', 'history_correct', 'target_skill', 'target_correct', 'mask', 'user_id'])"
+train_aligned_shapes,True,"{'history_skill': (3706, 200), 'history_correct': (3706, 200), 'target_skill': (3706, 200), 'target_correct': (3706, 200), 'mask': (3706, 200)}"
+train_max_length,True,
+train_target_count,True,222562
+train_binary_targets,True,
+train_binary_history,True,
+train_skill_ids_valid,True,
+train_nonempty_targets,True,
+train_mask_contiguous,True,
+val_required_keys,True,"dict_keys(['history_skill', 'history_correct', 'target_skill', 'target_correct', 'mask', 'user_id'])"
+val_aligned_shapes,True,"{'history_skill': (445, 200), 'history_correct': (445, 200), 'target_skill': (445, 200), 'target_correct': (445, 200), 'mask': (445, 200)}"
+val_max_length,True,
+val_target_count,True,23858
+val_binary_targets,True,
+val_binary_history,True,
+val_skill_ids_valid,True,
+val_nonempty_targets,True,
+val_mask_contiguous,True,
+test_required_keys,True,"dict_keys(['history_skill', 'history_correct', 'target_skill', 'target_correct', 'mask', 'user_id'])"
+test_aligned_shapes,True,"{'history_skill': (484, 200), 'history_correct': (484, 200), 'target_skill': (484, 200), 'target_correct': (484, 200), 'mask': (484, 200)}"
+test_max_length,True,
+test_target_count,True,32522
+test_binary_targets,True,
+test_binary_history,True,
+test_skill_ids_valid,True,
+test_nonempty_targets,True,
+test_mask_contiguous,True,
+disjoint_train_val,True,overlap=0
+disjoint_train_test,True,overlap=0
+disjoint_val_test,True,overlap=0
+train_unique_users_within_windows,True,3222 distinct users / 3706 windows
+train_manifest_user_subset,True,3222 sequence users
+train_user_count_not_exceed_manifest,True,
+val_unique_users_within_windows,True,403 distinct users / 445 windows
+val_manifest_user_subset,True,403 sequence users
+val_user_count_not_exceed_manifest,True,
+test_unique_users_within_windows,True,402 distinct users / 484 windows
+test_manifest_user_subset,True,402 sequence users
+test_user_count_not_exceed_manifest,True,
+train_local_next_step_shift,True,checked 218856 adjacent positions
+val_local_next_step_shift,True,checked 23413 adjacent positions
+test_local_next_step_shift,True,checked 32038 adjacent positions
+validation_prediction_count,True,
+validation_label_binary,True,
+validation_prediction_label_alignment,True,Requires original prediction flattening order
+p_deterministic_valid_probabilities,True,
+p_deterministic_auc_matches_report,True,"calculated=0.758522859, saved=0.758522859"
+p_deterministic_nll_matches_report,True,"calculated=0.540193502, saved=0.540193502"
+p_deterministic_brier_matches_report,True,"calculated=0.180585080, saved=0.180585080"
+p_deterministic_ece_15_matches_report,True,"calculated=0.018066379, saved=0.018066379"
+p_deterministic_n_targets_matches_report,True,"calculated=23858.000000000, saved=23858.000000000"
+p_mc30_valid_probabilities,True,
+p_mc30_auc_matches_report,True,"calculated=0.758921359, saved=0.758921359"
+p_mc30_nll_matches_report,True,"calculated=0.539458330, saved=0.539458330"
+p_mc30_brier_matches_report,True,"calculated=0.180358910, saved=0.180358910"
+p_mc30_ece_15_matches_report,True,"calculated=0.015997452, saved=0.015997452"
+p_mc30_n_targets_matches_report,True,"calculated=23858.000000000, saved=23858.000000000"
+checkpoint_has_state_dict,True,
+checkpoint_all_tensors_finite,True,
+checkpoint_selected_epoch,True,
+test_unused_reported,True,"Protocol assertion, not independent proof"

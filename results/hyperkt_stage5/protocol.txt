@@ -1,0 +1,1 @@
+Student-disjoint validation only; frozen Stage 4 fusion backbone; mean-head BCE; 30-pass MC dropout; no test access. Beta concentration not identifiable from binary BCE.

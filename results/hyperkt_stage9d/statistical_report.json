@@ -1,0 +1,13 @@
+{
+  "n_seeds": 5,
+  "mean_DKT_minus_HyperKT_auc": 0.006485951939782209,
+  "sd": 0.0009982641895968914,
+  "ci95_t": [
+    0.00524644323486369,
+    0.007725460644700728
+  ],
+  "exploratory_paired_t_p": 0.00013052812802286844,
+  "exploratory_wilcoxon_p": 0.0625,
+  "positive_seeds": 5,
+  "shared_validation_cohort": true
+}

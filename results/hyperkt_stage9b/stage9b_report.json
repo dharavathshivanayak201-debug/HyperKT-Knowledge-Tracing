@@ -1,0 +1,33 @@
+{
+  "stage": "9B",
+  "checkpoints": 20,
+  "checkpoint_load": "pass",
+  "causal_probe": "pass",
+  "student_disjoint_train_val": true,
+  "sequence_shift": "pass",
+  "duplicate_identical_windows": {
+    "train": 0,
+    "validation": 0
+  },
+  "cross_window_target_event_uniqueness": "unresolved: original event IDs not present",
+  "test_predictions_evaluated": false,
+  "max_saved_vs_recomputed_metric_delta": 5.041311412767868e-08,
+  "metric_reproduction_pass": true,
+  "stage8b_config": {
+    "hidden": 128,
+    "layers": 2,
+    "heads": 8,
+    "dropout": 0.1,
+    "batch_size": 16,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "max_epochs": 20,
+    "patience": 5
+  },
+  "limitations": [
+    "Fixed pretrained Stage 3B hypergraph across seeds",
+    "No explicit key padding mask; only right-padded prefix-valid windows are supported",
+    "Positional distance is not elapsed clock time",
+    "Cannot prove unique event identities from skill/response pairs"
+  ]
+}

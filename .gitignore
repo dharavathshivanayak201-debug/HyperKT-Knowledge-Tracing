@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+private/
+data/
+checkpoints/
+*.pt
+*.parquet
+*.zip
+*.tar.gz
+predictions_*.npz
+*_sequences.npz
+student_coverage.csv

@@ -1,0 +1,40 @@
+{
+  "config": {
+    "hidden": 128,
+    "layers": 2,
+    "heads": 8,
+    "dropout": 0.1,
+    "batch_size": 16,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "max_epochs": 20,
+    "patience": 5
+  },
+  "seeds": [
+    42,
+    123,
+    2024,
+    3407,
+    7777
+  ],
+  "variants": {
+    "transformer": [
+      false,
+      false
+    ],
+    "transformer_decay": [
+      false,
+      true
+    ],
+    "transformer_hypergraph": [
+      true,
+      false
+    ],
+    "transformer_hypergraph_decay": [
+      true,
+      true
+    ]
+  },
+  "stage2_sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+  "stage3b_sha256": "6df9833e37019ea54969a3059e956c05a54b20b95224f335be68c873379db1a8"
+}

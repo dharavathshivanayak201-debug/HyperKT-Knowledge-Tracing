@@ -1,0 +1,24 @@
+{
+  "stage": "5",
+  "seed": 42,
+  "selected_epoch": 1,
+  "deterministic_validation": {
+    "auc": 0.7585228585275003,
+    "nll": 0.5401935019510005,
+    "brier": 0.18058507987388264,
+    "ece_15": 0.018066379277012018,
+    "n_targets": 23858
+  },
+  "mc30_validation": {
+    "auc": 0.7589213703168591,
+    "nll": 0.5394583296891017,
+    "brier": 0.18035890968456883,
+    "ece_15": 0.015997451847102637,
+    "n_targets": 23858
+  },
+  "mc30_variance_mean": 0.0006004868191666901,
+  "mc30_variance_p95": 0.0016450193943455815,
+  "interpretation": "MC dropout variance is an approximate uncertainty diagnostic. Beta concentration is not identifiable from binary BCE and must not be reported as calibrated uncertainty.",
+  "test_used": false,
+  "stage4_reference_val_auc": 0.7577769499685907
+}

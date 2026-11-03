@@ -1,0 +1,275 @@
+{
+  "description": "HyperKT Objective 01 original research artifacts; archives retained unchanged",
+  "files": [
+    {
+      "name": "HyperKT_Objective01_Colab.ipynb",
+      "bytes": 14540,
+      "sha256": "2c4e06fab5617bb7d519d2ff871b309c63b7ce859f3242ada79b0d1d7d39e598",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage10_Frozen_Heldout_Test_Evaluation_Colab.ipynb",
+      "bytes": 23756,
+      "sha256": "cf0250148693b78121422e11aca5b9f4f04f4c5c5efa064805c5e1a2cece4d91",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage11_Publication_Analysis_Colab.ipynb",
+      "bytes": 13756,
+      "sha256": "5c9822f619bafb10fcb5616c1f48553f3a14431d2b2c776959bb7eb0b12c5463",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage1_ASSIST2009_Data_Preparation.ipynb",
+      "bytes": 9111,
+      "sha256": "a4d05e98a8894ba1b27df335fa62170984ba35b22b28f8ac5b279536f33d5c0c",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage2_Sequence_Construction.ipynb",
+      "bytes": 10351,
+      "sha256": "e3124bb6500d0a033d9c4dbb28bde6959f84c52dccc287e6631827ce5f02a29f",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage2_Sequence_Construction_FIXED.ipynb",
+      "bytes": 10285,
+      "sha256": "95665eb4f050ea57dad00454f5b39d51fc3b2c3bf6f9d48940f21b6434bf523a",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage3B_GPU_SAFE_v2.ipynb",
+      "bytes": 13561,
+      "sha256": "a119ef1115c22e71e3b07b5a31a695df60b75061f77215189e926eacbb0f5022",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage3B_Hypergraph_Validation_Correction.ipynb",
+      "bytes": 13004,
+      "sha256": "cfe443adb8aca4b95c6fb450a848652a6d06b0a81f88c7661d534f622266650e",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage3_Differentiable_Hypergraph.ipynb",
+      "bytes": 11133,
+      "sha256": "50b214378cf7b71a9e81f999fbc79b75bd5243a54919d6bf550899eabd2140e9",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage4_Forgetting_Aware_Transformer.ipynb",
+      "bytes": 11331,
+      "sha256": "e6379e06318940f148e4c31d640901c4c62c378200b1ab4b555bf94ef85f4348",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage5_Uncertainty_Colab.ipynb",
+      "bytes": 14432,
+      "sha256": "e8da782bf7f8b2dcc435203a3f013903491e8f0de6944d2baf6135273cfe3acd",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage6_End_to_End_Fine_Tuning.ipynb",
+      "bytes": 14606,
+      "sha256": "db08c5a760872862264545170377fc9fccb2623ef58e666358a1bc38dd131e0e",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage7_Reproducibility_Audit.ipynb",
+      "bytes": 9385,
+      "sha256": "4826dded76060842be995622af395a38df1011bcd39c8f5aac11f7b9cb8c39b8",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage8A_Causal_Audit_Controlled_Ablations.ipynb",
+      "bytes": 13612,
+      "sha256": "b6b4c704e896100471e2ec3db0a965eae3d5c4b254ed05d123a4c57a09072eea",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage8B_Five_Seed_Colab.ipynb",
+      "bytes": 21551,
+      "sha256": "fdcb7c8994254a6fa5733f78b46d9a7e22b340bf1069558c6fd6fb11e3e0e4e1",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage9A_Statistical_Analysis_Protocol_Lock.ipynb",
+      "bytes": 9463,
+      "sha256": "eec52fd46b05be4d666eb3acc3fc26dcaf7f553acfb1b45ff69ee74f421849e9",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage9B_Checkpoint_Sequence_Audit.ipynb",
+      "bytes": 18412,
+      "sha256": "33c9f83e7b75e763280980d4cc167eb9578d8259e231a2d498cb7ae04a676ad4",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage9C_Five_Seed_Baselines_Colab.ipynb",
+      "bytes": 18294,
+      "sha256": "d02a9b4c59cedeb09ee9bcc40ec0995a097c219c24c3f5024b32d71471a30496",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage9D_Performance_Gap_Fairness_Audit.ipynb",
+      "bytes": 11621,
+      "sha256": "b26622c7d3b55979e7227258ae3b532ebcbfad59ce30f488d25db2933b49397a",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage9E_Controlled_Improvement_Colab.ipynb",
+      "bytes": 21821,
+      "sha256": "8ab01682caa7ff4607f2643bc80476172bc6bca23aa7adbebddbbee7efb9063a",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage9F_Event_Integrity_Protocol_Lock.ipynb",
+      "bytes": 12471,
+      "sha256": "78a2c62b5282d48aec36f978212c4a104bb09908ffca8dbff92306bcc646c851",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Stage9G_Checkpoint_Verification_Protocol_Freeze.ipynb",
+      "bytes": 15806,
+      "sha256": "192392570d659ca2286835acf9cab40f847ab9f03ba60b1f300cf3ad040f2c0a",
+      "group": "notebooks"
+    },
+    {
+      "name": "HyperKT_Knowledge_Tracing_CODE_ALIGNED(1).tex",
+      "bytes": 31636,
+      "sha256": "5eef447208cdad2180ce3bb82c031aff88b8685416e7bb38cc3a12bb09b4e3a4",
+      "group": "manuscript"
+    },
+    {
+      "name": "HyperKT_SCI_Q1_Ready (1)(1).tex",
+      "bytes": 53804,
+      "sha256": "bb31095323ea9035723df38371b09c9e7727da3b2d6900859588497f9cdf7af6",
+      "group": "manuscript"
+    },
+    {
+      "name": "HyperKT_SCI_Q1_Ready (1).tex",
+      "bytes": 53804,
+      "sha256": "bb31095323ea9035723df38371b09c9e7727da3b2d6900859588497f9cdf7af6",
+      "group": "manuscript"
+    },
+    {
+      "name": "hyperkt_stage1.zip",
+      "bytes": 2070695,
+      "sha256": "f0bf893ed13ab0a64ec0175bf75b79d6d2c973bb63b70093f5811a1995ac86d8",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage2(2).zip",
+      "bytes": 429070,
+      "sha256": "e50ca8bca34ae94d3aaff39377abe1eda91c93efefede7d80aabb4ac2ca291d4",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage3.zip",
+      "bytes": 197519,
+      "sha256": "8040c4d24c5a97174cd7ef42fa33441bd35d7c67a69ff299cd6589331cf7c54e",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage3b(1).zip",
+      "bytes": 79944,
+      "sha256": "6df9833e37019ea54969a3059e956c05a54b20b95224f335be68c873379db1a8",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage7_audit.zip",
+      "bytes": 2964,
+      "sha256": "0116ede7871a65851a11b1d0ca433c3300c8198353b06c84fd697ce38b755b8b",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage8b.zip",
+      "bytes": 33826,
+      "sha256": "7807a73f9801cb6dcd1e0069255ab44b427c034a93749e19e9e1818b9f4991a0",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage9a.zip",
+      "bytes": 3536,
+      "sha256": "e5b3af314cdb60af67f9d36588c3c7663c6b27c08f3dfda5241bb74109510f97",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage9b.zip",
+      "bytes": 4854,
+      "sha256": "0caf4cd3c8dc932b49f865ad8097e9de4c9a069c0f6fec184725f188b3019bb7",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage9c.zip",
+      "bytes": 60658,
+      "sha256": "a8ccc766f584d52954102d8d4bccfa02542293f9efe6b507a9d6af740f65a880",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage9d.zip",
+      "bytes": 54107,
+      "sha256": "716912f75926d867832ac90fb15d8e4ce45d5175177ec794e0a0fb7899a09aae",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage9e.zip",
+      "bytes": 29303,
+      "sha256": "500ba1b5099fa4746455085356d6799b25409b5aa81a769a9144e6c2adc0838b",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage9f.zip",
+      "bytes": 20027,
+      "sha256": "c2f6f2a94a03d5b847b87fd95aeefcd61e4df27e1deabd72985d5fb80f307573",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage9g.zip",
+      "bytes": 3231,
+      "sha256": "472845ff24e7163941d44d41ea5da905694ffa7405302bb7fdee5ee9e546d751",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage10.zip",
+      "bytes": 1849521,
+      "sha256": "f105f92c25b0f9ada74cf32fce8866b3872807b8944a6acfbbec03c9d032e0c6",
+      "group": "stage_results"
+    },
+    {
+      "name": "hyperkt_stage4.zip",
+      "bytes": 25531043,
+      "sha256": "868f57bab32e4f03fe0193f5baedda47ae2d4f8116625a40ede9fb7c07fc3886",
+      "group": "checkpoint_and_large_artifacts"
+    },
+    {
+      "name": "hyperkt_stage5.zip",
+      "bytes": 14089212,
+      "sha256": "0474756734ba6798c0598fc6c2becbe708b572f895f485fc2fa930479aea8bea",
+      "group": "checkpoint_and_large_artifacts"
+    },
+    {
+      "name": "hyperkt_stage6.zip",
+      "bytes": 14074184,
+      "sha256": "56444a89e6b948e1fa1acdd9ec50331fa4a7072b44c765c27e978cc08e0fe0fd",
+      "group": "checkpoint_and_large_artifacts"
+    },
+    {
+      "name": "hyperkt_stage8a.zip",
+      "bytes": 51060306,
+      "sha256": "da307c80eb03f40fe208e07a0e4cf55fda7072738fd2430afad61a2fff6d6a1f",
+      "group": "checkpoint_and_large_artifacts"
+    },
+    {
+      "name": "HyperKT_Stage8B-20261102T200833Z-1-001.zip",
+      "bytes": 37271642,
+      "sha256": "c62ba593185dc0f52d579f7ad4534512297df26af2a070ee7ab6429b41f0bd28",
+      "group": "checkpoint_and_large_artifacts"
+    },
+    {
+      "name": "HyperKT_Stage9E-20261102T225711Z-1-001.zip",
+      "bytes": 90239269,
+      "sha256": "965727568a73b9f051604e1ce24378bd895c6281cd5ff993f1cf2c0d0b0bb616",
+      "group": "checkpoint_and_large_artifacts"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "public_structure": {
+    "inherited_files": 233,
+    "notebooks": 22,
+    "final_metric_rows": 15,
+    "source_manifest_matches": 45,
+    "exported_model_classes_AST_identical": true,
+    "note": "Public structural/table validation, not an independent rerun of private predictions or bootstrap intervals."
+  },
+  "unresolved_local_markdown_targets": [],
+  "tests": {
+    "run": 14,
+    "skipped": 0,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "release_assets": [
+    {
+      "asset": "hyperkt-final-stage9e-checkpoints-v1.zip",
+      "checkpoints": 15,
+      "all_entry_hashes_verified": true,
+      "crc_pass": true
+    },
+    {
+      "asset": "hyperkt-historical-stage4-to8a-checkpoints-v1.zip",
+      "checkpoints": 8,
+      "all_entry_hashes_verified": true,
+      "crc_pass": true
+    },
+    {
+      "asset": "hyperkt-historical-stage8b-checkpoints-v1.zip",
+      "checkpoints": 20,
+      "all_entry_hashes_verified": true,
+      "crc_pass": true
+    }
+  ],
+  "publication": {
+    "github_content_pushed": false,
+    "github_release_published": false,
+    "github_ci_executed": false,
+    "reason": "Owner access re-verification and disconnected Comet blocked the approved temporary-collaborator invitation. Local tests and asset checks are not remote CI verification."
+  }
+}

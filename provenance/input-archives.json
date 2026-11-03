@@ -1,0 +1,19 @@
+{
+  "scope": "Outer uploaded containers retained privately; none is a wholesale public release asset.",
+  "archives": [
+    {
+      "name": "HyperKT_GitHub_Source_Results.zip",
+      "sha256": "c9a132b5625d9944afa3766650ad8396a41cae6321c1f93972559a43c4282644"
+    },
+    {
+      "name": "HyperKT_Checkpoints_Part1.zip",
+      "sha256": "622cebe787f15255c8c03365ef6ef68354e6ffea9a51affa6f0329501c0c297c"
+    },
+    {
+      "name": "HyperKT_Checkpoints_Part2.zip",
+      "sha256": "1e8af27a39c4fc269fbefb4ef8fa317690cebde85ffa12b807a5a6aceaa9fef5"
+    }
+  ],
+  "original_manifest": "archive/package_notes/SHA256_MANIFEST.json",
+  "manifest_entries_verified": 45
+}
