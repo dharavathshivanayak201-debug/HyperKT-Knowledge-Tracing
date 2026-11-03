@@ -36,9 +36,7 @@
     }
   ],
   "publication": {
-    "github_content_pushed": false,
-    "github_release_published": false,
-    "github_ci_executed": false,
-    "reason": "Owner access re-verification and disconnected Comet blocked the approved temporary-collaborator invitation. Local tests and asset checks are not remote CI verification."
+    "checked_by_this_script": false,
+    "note": "This utility verifies local content, not GitHub upload, CI, release downloads or collaborator access. Remote verification is recorded separately."
   }
 }

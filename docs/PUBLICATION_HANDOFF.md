@@ -1,14 +1,14 @@
-# Publication handoff
+# Publication and verification workflow
 
-The new repository exists under the requested owner and name, but at the time this handoff was prepared its remote content consisted only of GitHub's initial README. The reviewed source tree and checkpoint assets are ready locally; they have not yet been pushed or uploaded to a release.
+This repository is the Objective 1 research release under the requested owner and name. Code and aggregate evidence belong in Git, while the three curated model-only checkpoint ZIPs belong in a versioned GitHub release.
 
-## Blocking access step
+## Publication history
 
-GitHub requested owner re-verification at the repository access settings before the approved temporary collaborator could be invited. Comet subsequently disconnected with `ws_closed`, so the access step and collaborator invitation could not be completed from this session.
+The first publication attempt stopped before upload because GitHub requested owner re-verification and Comet disconnected. The owner subsequently completed GitHub's own email verification, allowing the already approved temporary repository-only uploader invitation to be accepted.
 
-Open Comet, sign into the repository owner's GitHub account if needed, and complete GitHub's own “Confirm access” / “Verify via email” step. Enter authentication codes only on GitHub; no password or code needs to be sent in chat.
+Authentication codes are entered only on GitHub, never in research files or chat. The temporary upload account is an operational collaborator, not an inferred research author.
 
-## Authorized remaining sequence
+## Upload and verification procedure
 
 - **Access:** add `raghudhumpatiprojects-pixel` to `dharavathshivanayak201-debug/HyperKT-Knowledge-Tracing` only, accept the invitation through the existing CLI and use that temporary write access.
 - **Git upload:** preserve the existing initial commit, check commit identity, push the reviewed tree and inspect the resulting public files.
@@ -16,4 +16,4 @@ Open Comet, sign into the repository owner's GitHub account if needed, and compl
 - **Verification:** fresh-clone the remote, run public checks and tests, inspect both CI jobs and verify downloaded release-asset hashes.
 - **Cleanup:** remove the temporary collaborator, leaving the owner's repository intact; share the actual repository/release URLs only after checking their contents.
 
-No thesis-wide research home is being created, and the Objective 3 and Navier–Stokes repositories must remain untouched. Do not use the new link as a completed code-availability statement until the upload and verification have finished.
+No thesis-wide research home is being created, and the Objective 3 and Navier–Stokes repositories remain outside this work. Local tests do not establish remote CI success or release-asset availability; check the actual public repository, Actions results and downloaded asset hashes before reporting completion.

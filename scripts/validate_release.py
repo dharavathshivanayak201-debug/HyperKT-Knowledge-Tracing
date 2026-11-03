@@ -55,10 +55,8 @@ def main():
                                  "all_entry_hashes_verified": True, "crc_pass": True})
         report["release_assets"] = asset_checks
     report["publication"] = {
-        "github_content_pushed": False,
-        "github_release_published": False,
-        "github_ci_executed": False,
-        "reason": "Owner access re-verification and disconnected Comet blocked the approved temporary-collaborator invitation. Local tests and asset checks are not remote CI verification."
+        "checked_by_this_script": False,
+        "note": "This utility verifies local content, not GitHub upload, CI, release downloads or collaborator access. Remote verification is recorded separately."
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, indent=2) + "\n")
