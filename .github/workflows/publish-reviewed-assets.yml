@@ -60,19 +60,19 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          gh release view v1.0.0 --repo "$GITHUB_REPOSITORY" \
-            --json isDraft,assets,url > release-published.json
+          gh api "repos/$GITHUB_REPOSITORY/releases/tags/v1.0.0" \
+            > release-published.json
           python - <<'PY'
           import json, pathlib
           root = pathlib.Path(".")
           published = json.loads((root / "release-published.json").read_text())
           manifest = json.loads((root / "provenance/checkpoint-release-manifest.json").read_text())
-          assert not published["isDraft"]
+          assert not published["draft"]
           assets = {r["name"]: r for r in published["assets"]}
           assert set(assets) == {r["asset"] for r in manifest["assets"]} | {"SHA256SUMS.txt"}
           for row in manifest["assets"]:
               asset = assets[row["asset"]]
               assert asset["size"] == row["bytes"]
               assert asset["digest"] == "sha256:" + row["sha256"]
-          print("Published verified assets:", published["url"])
+          print("Published verified assets:", published["html_url"])
           PY
